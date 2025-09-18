@@ -147,6 +147,42 @@ ul {
 .logos {
   height: 50px;
 }
-.features-header {
-  align-items: center;
+.features-section{
+  padding: 40px var(--padding-inline-section);
+} 
+.features-heading-text {
+  margin-bottom: 20px;
 }
+.features-header{
+  text-align: center;
+}
+.features-card img{
+  width: 100px;
+}
+.features-card{
+  flex-direction: column;
+  gap: 20px;
+  max-width: 30%;
+  text-align: center;
+}
+.features-area{
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 20px;
+}
+.feature-img img{
+  width: 600px;
+}
+.big-feature-section{
+  padding: 30px var(--padding-inline-section) 0;
+}
+.feature-desc{
+  margin-top: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.big-feature-container{
+  gap: 30px;
+}
+
